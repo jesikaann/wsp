@@ -1,7 +1,6 @@
-/*Colors Used: Light Teal #4999C1
-				Darker Blue #184BCA
-				Light Blue #B2D2ED
-				Green  #04871A
+/*Colors Used: dark blue 3565B0
+				grey blue ACC2E3
+				teal 56BCEB
 				*/
 
 
@@ -41,7 +40,7 @@ body {
 	width: 960px;
 	height:600px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #4999C1;
+	background-color: #56BCEB;
 	margin: 0 auto;
 	padding: 0;
 	font-size: 0.75em;
@@ -57,10 +56,10 @@ header {
 	width: 100%;
 }
 #maincontent {
-	background-color: #B2D2ED;
+	background-color: #56BCEB;
 	width: 95%;
 	margin: 0 auto;
-	height:75%;
+	height:auto;
 }
 #logo {
 	float: left;
@@ -72,18 +71,21 @@ header h1 {
 	font-size: 2em;
 	text-align: right;
 }
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Courgette', cursive;
+}
 /*                      global nav css        */
 
 
 
 nav {
 	float: right;
-	width: 55%;
-	margin-right: -2%;
+	width: 95%;
+	margin-right: -13%;
 }
 nav li {
 	display: inline-block;
-	font-size: 1.125em;
+	font-size: 1.75em;
 	text-align: right;
 	margin-left: 1%;
 }
@@ -109,19 +111,19 @@ nav a:visited{color:#184BCA;}
 }
 
 #choir{
-	margin-left:13%;
+	width:100%;
 }
 
 #columns{clear:both;}
 
-.mission{width:45%;
+.schedule, .mission{
+	background-color:#ACC2E3;
+	height:170px;
+	width:45%;
 border:solid thin #000;
 padding:1%;
 }
 
-.schedule{width:45%;
-border:solid thin #000;
-padding:1%;}
 
 .schedule li{list-style-type:none;}
 
@@ -134,6 +136,52 @@ p{text-align:justify;}
 
 
 /*         end of main content css       */
+/*          content css                 */
+#contact{background-color:#ACC2E3;
+width:95%;
+margin:0 auto;
+height:300px;
+padding:1%;
+}
+
+#contact h1{text-align:center;}
+
+#contact ul{float:right;
+list-style-type:none;}
+
+form {clear:both;}
+
+.comment, .info{width:45%;
+}
+
+label, input, textarea, button{display:block;}
+
+input{
+	width:100%;
+}
+fieldset {
+	border:none;
+}
+/*                      end of contact             */
+
+
+/*                      general css for the rest of pages            */
+
+
+.body {background-color:#ACC2E3;
+padding:1%;
+height:auto;}
+
+.body h1 {text-align:center;}
+
+.body ul{text-align:justify;
+width:50%;
+margin:0 auto;
+}
+
+.body ul li{
+	margin-bottom:1.5%;
+}
 
 
 /*          footer css                    */
