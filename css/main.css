@@ -64,6 +64,8 @@ header {
 #logo {
 	float: left;
 }
+
+
 header h1 {
 	float: right;
 	width: 60%;
@@ -140,7 +142,7 @@ p{text-align:justify;}
 #contact{background-color:#ACC2E3;
 width:95%;
 margin:0 auto;
-height:300px;
+height:400px;
 padding:1%;
 }
 
@@ -183,6 +185,8 @@ margin:0 auto;
 	margin-bottom:1.5%;
 }
 
+#parkinglot {display:block;
+margin:0 auto;}
 
 /*          footer css                    */
 footer {
