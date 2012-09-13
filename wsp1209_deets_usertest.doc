@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk.png" type="image/x-icon">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>Christ Episcopal Church Usability Survey</title>
+
+<link href="wsp1209_deets_usertest_files/779923916-published_form_compiled.css" type="text/css" rel="stylesheet">
+<style type="text/css">body{background-color:#303030;color:#ffffff;font-family:Georgia,Times,serif;text-align:left;padding:0}a{color:#e8280e}a:hover{text-decoration:none}.ss-form-container{background-color:#222222;border:0;margin:0 50px;padding:60px 20px;width:480px;border-left:25px solid #2a2a2a;border-right:25px solid #2a2a2a}.ss-form-desc{margin-top:2px;font-size:12pt}.ss-form-title{padding-top:5px;padding-bottom:5px;font-size:36pt;text-transform:uppercase;font-weight:normal;border-top:7px solid #444444;border-bottom:1px solid #444444;color:#eeeeee}.ss-q-title{font-size:16pt;font-weight:normal;font-style:italic;margin-bottom:2px;border-top:3px solid #333333;padding-top:3px;color:#d8470b}.ss-q-help{font-size:9pt;margin-bottom:10px;color:#bbbbbb}.ss-form-entry input,.ss-form-entry textarea,.ss-form-entry select{border:1px solid #555555}.ss-form-entry input{padding:2px 4px}.ss-form-entry textarea{width:100%;margin-bottom:0}.ss-form-entry .ss-q-short,.ss-form-entry table,.ss-form-entry .ss-choices,.ss-form-entry select,.ss-form-entry textarea,input[type="submit"]{margin-left:0px}.ss-required-asterisk{font-size:8pt;color:#bbbbbb}.ss-q-title .ss-required-asterisk{font-size:16pt;padding:0}input[type="submit"]{border:2px solid #333333;padding:4px 6px;background-color:#222222;color:#eeeeee;margin-bottom:40px;font-size:12pt}.ss-powered-by{padding-top:15px;font-size:8pt;color:#aaaaaa;border-top:1px solid #333333}.ss-scalerow{padding:2px 2px 2px 0;margin:0;border-color:#444444}div.errorbox-bad .ss-q-title{border:none}div.errorbox-bad label.ss-q-help{color:#777}h2.ss-section-title{background-color:transparent}div.ss-submit div.ss-form-entry{background:none;border:none}</style></head>
+<body class="ss-base-body" dir="ltr" itemscope="" itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Christ Episcopal Church Usability Survey">
+<meta itemprop="description" content="Thank you for agreeing to participate in this survey. The website can be found at http://jesikaann.github.com/wsp/index.html
+
+The intent of this survey is to determine whether this website is easy or difficult to use and receive user feedback. 
+
+The finalized pages of this website are: Home, Parking, and Contact. Please test links to determine their usability. Although you will find a &quot;Submit&quot; button on the Contact page, you will not actually submit any information here. Please feel free to fill the Contact form out as you normally would anyway. You may then pretend to submit your information.
+
+There are no right or wrong answers in this survey. It is just a test of usability. Thank you for participating and enjoy!">
+<meta itemprop="thumbnailUrl" content="https://docs.google.com/spreadsheet/formthumb?formkey=dHFrTV80My1Xb2lrUFhHYXU5QlVoOVE6MQ">
+
+<meta itemprop="embedUrl" content="https://docs.google.com/spreadsheet/embeddedform?formkey=dHFrTV80My1Xb2lrUFhHYXU5QlVoOVE6MQ">
+<meta itemprop="faviconUrl" content="//ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk.png">
+
+<div class="ss-form-container">
+<div class="ss-form-heading"><h1 class="ss-form-title">Christ Episcopal Church Usability Survey</h1>
+<p></p>
+<div class="ss-form-desc ss-no-ignore-whitespace">Thank you for agreeing to participate in this survey. The website can be found at <a href="http://jesikaann.github.com/wsp/index.html" target="_blank">http://jesikaann.github.com/wsp/index.html</a>
+
+The intent of this survey is to determine whether this website is easy 
+or difficult to use and receive user feedback. 
+
+The finalized pages of this website are: Home, Parking, and Contact. 
+Please test links to determine their usability. Although you will find a
+ "Submit" button on the Contact page, you will not actually submit any 
+information here. Please feel free to fill the Contact form out as you 
+normally would anyway. You may then pretend to submit your information.
+
+There are no right or wrong answers in this survey. It is just a test of
+ usability. Thank you for participating and enjoy!</div>
+
+<hr class="ss-email-break" style="display:none;">
+<div class="ss-required-asterisk">* Required</div></div>
+<div class="ss-form"><form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHFrTV80My1Xb2lrUFhHYXU5QlVoOVE6MQ&amp;theme=0AX42CRMsmRFbUy00ODg0N2E0OC04ZjI0LTQyZDItOTQ4Ni1hMDNhZTRkNGI5NmY&amp;ifq" method="POST" id="ss-form">
+
+
+<br>
+<div class="errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_0">What strikes you first?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_0">What stands out to you when you first see the page?</label>
+<textarea name="entry.0.single" rows="8" cols="75" class="ss-q-long" id="entry_0"></textarea></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_1">What do you feel is the purpose of this website?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_1">What do you think the point is?</label>
+<textarea name="entry.1.single" rows="8" cols="75" class="ss-q-long" id="entry_1"></textarea></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_2">Who, specifically, do you think might visit this site regularly?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_2"></label>
+<textarea name="entry.2.single" rows="8" cols="75" class="ss-q-long" id="entry_2"></textarea></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_3">Please give me your initial impressions about the layout and design of this page by choosing one of the folloowing options:
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_3"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.3.group" value="There are some areas of the site that I feel might be visually incomplete or unfinished." class="ss-q-radio" id="group_3_1" type="radio">
+There are some areas of the site that I feel might be visually incomplete or unfinished.</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.3.group" value="The site genuinely satisfies the site's intent and target audience. " class="ss-q-radio" id="group_3_2" type="radio">
+The site genuinely satisfies the site's intent and target audience. </label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.3.group" value="Somewhere between the first and second options. " class="ss-q-radio" id="group_3_3" type="radio">
+Somewhere between the first and second options. </label></li>
+</ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_4">Were the fonts used in this site readable?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_4"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.4.group" value="Yes" class="ss-q-radio" id="group_4_1" type="radio">
+Yes</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.4.group" value="No" class="ss-q-radio" id="group_4_2" type="radio">
+No</label></li>
+</ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_5">Do you like the color scheme that was used?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_5"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.5.group" value="Yes" class="ss-q-radio" id="group_5_1" type="radio">
+Yes</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.5.group" value="No" class="ss-q-radio" id="group_5_2" type="radio">
+No</label></li>
+</ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_6">Please navigate to the Parking page. Was it easy to find?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_6"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.6.group" value="Yes" class="ss-q-radio" id="group_6_1" type="radio">
+Yes</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.6.group" value="No" class="ss-q-radio" id="group_6_2" type="radio">
+No</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.6.group" value="Cannot find page at all" class="ss-q-radio" id="group_6_3" type="radio">
+Cannot find page at all</label></li>
+</ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_8">How do you feel about filling out the Contact Form?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_8"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.8.group" value="Easy" class="ss-q-radio" id="group_8_1" type="radio">
+Easy</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.8.group" value="Difficult" class="ss-q-radio" id="group_8_2" type="radio">
+Difficult</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.8.group" value="Both" class="ss-q-radio" id="group_8_3" type="radio">
+Both</label></li>
+</ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_9">If you could change anything about this website, what would you do?
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_9"></label>
+<textarea name="entry.9.single" rows="8" cols="75" class="ss-q-long" id="entry_9"></textarea></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_7">If you aren't already a member of this church would you visit based on this website?
+</label>
+<label class="ss-q-help" for="entry_7"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.7.group" value="Yes" class="ss-q-radio" id="group_7_1" type="radio">
+Yes</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.7.group" value="No" class="ss-q-radio" id="group_7_2" type="radio">
+No</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input name="entry.7.group" value="Maybe" class="ss-q-radio" id="group_7_3" type="radio">
+Maybe</label></li>
+</ul></div></div></div>
+<br>
+<input name="pageNumber" value="0" type="hidden">
+<input name="backupCache" value="" type="hidden">
+
+
+<div class="ss-item ss-navigate"><div class="ss-form-entry">
+<input name="submit" value="Submit" type="submit"></div></div></form>
+<script type="text/javascript">
+      
+      (function() {
+var divs = document.getElementById('ss-form').
+getElementsByTagName('div');
+var numDivs = divs.length;
+for (var j = 0; j < numDivs; j++) {
+if (divs[j].className == 'errorbox-bad') {
+divs[j].lastChild.firstChild.lastChild.focus();
+return;
+}
+}
+for (var i = 0; i < numDivs; i++) {
+var div = divs[i];
+if (div.className == 'ss-form-entry' &&
+div.firstChild &&
+div.firstChild.className == 'ss-q-title') {
+div.lastChild.focus();
+return;
+}
+}
+})();
+      </script></div>
+<div class="ss-footer"><div class="ss-attribution"></div>
+<div class="ss-legal"><span class="ss-powered-by">Powered by <a href="http://docs.google.com/">Google Docs</a></span>
+<span class="ss-terms"><small><a href="https://docs.google.com/spreadsheet/reportabuse?formkey=dHFrTV80My1Xb2lrUFhHYXU5QlVoOVE6MQ&amp;source=https://docs.google.com/spreadsheet/viewform?formkey%3DdHFrTV80My1Xb2lrUFhHYXU5QlVoOVE6MQ">Report Abuse</a>
+-
+<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
+-
+<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></small></span></div></div></div></body></html>
