@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width-device, initial-scale=1, maximum-scale=1">
 <meta charset="UTF-8">
 <title>Parking</title>
 <link href="http://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" type="text/css">
@@ -12,7 +13,9 @@
 <div id="container">
   <header>
     <h1>Christ Episcopal Church</h1>
-    <img id="logo" src="images/logo.png" height="100" alt="logo">
+    <div id="logoContainer">
+    <img id="logo" src="images/logo.png" alt="logo">
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -20,7 +23,7 @@
         <li><a href="#history.html">History</a></li>
         <li><a href="#sermons.html">Sermons</a></li>
         <li><a href="#share.html">S.H.A.R.E.</a></li>
-        <li><a href="generic.html">Parking</a></li>
+        <li><a class="current" href="generic.html">Parking</a></li>
         <li><a href="form.html">Contact</a></li>
       </ul>
     </nav>
@@ -38,8 +41,9 @@
     <li>Other times of the week:  parking tokens for UDPA commercial lots available in 
 	the church office.</li>
     </ul>
-  
-  <img id="parkinglot" src="images/parkinglot.png" height="200" alt="parkinglot">
+  <div id="parkingContainer">
+  <img id="parkinglot" src="images/parkinglot.png" alt="parkinglot">
+  </div>
   
   
   
