@@ -24,9 +24,6 @@ th, td {
 h1, h2, h3, h4, h5, h6, th, td, caption {
 	font-weight: normal;
 }
-img {
-	border: 0;
-}
 /*      Main CSS     */
 
 
@@ -36,7 +33,7 @@ img {
 body {
 	max-width: 960px;
 	height: auto;
-	font: 100%/1 "Arial", "Helvetica", sans-serif;
+	font: 100%/1.5 "Arial", "Helvetica", sans-serif;
 	/*font-family: Arial, Helvetica, sans-serif;*/
 	background-color: #56BCEB;
 	margin: 0 auto;
@@ -45,28 +42,32 @@ body {
 #container {
 	width: 100%;
 	margin: 0;
-	padding: 0 .5%;
+	padding: 0;
 	position: relative;
 	font-size: 0.75em;
+	height: auto;
 }
 header {
 	width: 100%;
+	padding: 1%;
 }
 #logoContainer {
 	width: 17.7083%;
+	margin-left: -1%;
 }
 #logo {
 	float: left;
 	/*height:100px;
 	width:170;*/
-	max-width: 100%;
+	max-width: 100%;/*margin-bottom:1%;*/
 }
 header h1 {
 	float: right;
 	width: 60%;
 	font-family: 'Courgette', cursive;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: right;
+	margin-top: -10px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Courgette', cursive;
@@ -76,13 +77,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 nav {
-	width: 90%;
+	width: 70%;
 	float: right;
-	margin-right: -7%;
+	margin-right: -3%;
 }
 nav ul li {
+	font-family: Georgia, "Times New Roman", Times, serif;
 	display: inline-block;
-	font-size: 1.75em;
+	font-size: 1.65em;
 	text-align: right;
 	margin-left: 1%;
 }
@@ -93,30 +95,21 @@ nav ul li a, nav ul li a.current:hover {
 nav ul li a:active {
 	color: #04871A;
 }
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a.current {
 	font-style: italic;
 	font-weight: bold;
-	color: #04871A;
-}
-nav ul li a.current {
-	font-style: italic;
-	font-weight: bold;
-	background-color: #FFF;
-}
-nav ul li a:visited {
-	color: #184BCA;
+	color: #FFF;
 }
 /*               end of global nav       */
 
 
 /*                main content css        */
 #maincontent {
-	background-color: #56BCEB;
-	max-width: 95%;
+	background-color: #ACC2E3;
+	max-width: 100%;
 	margin: 0 auto;
 	height: auto;
-	clear: both;
-	padding: 0 1%;
+	clear: both;/*	padding:1% 1%;*/
 }
 #choirContainer {
 	width: 100%;
@@ -127,12 +120,14 @@ nav ul li a:visited {
 #columns {
 	clear: both;
 	width: 100%;
+	background-color: #ACC2E3;
+	height: 280px;
 }
 .schedule, .mission {
-	background-color: #ACC2E3;
-	height: 200px;
+	font-size: 1.125em;
+	height: 250px;
 	width: 45%;
-	border: solid thin #000;
+	border: none;
 	padding: 1%;
 }
 .schedule li {
@@ -151,25 +146,35 @@ p {
 /*          content css                 */
 #contact {
 	background-color: #ACC2E3;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	height: 350px;
-	padding: 1%;
+	padding: 1% 1%;
 }
 #contact h1 {
 	text-align: center;
 }
 #contact ul {
-	float: right;
+	float: left;
 	list-style-type: none;
+	font-size: 1.25em;
+}
+#contact ul li {
+	display: block;
+}
+#contact p {
+	clear: both;
+	width: 100%;
+	font-size: 1.25em;
 }
 form {
 	clear: both;
 }
 .comment, .info {
-	width: 45%;
+	width: 50%;
 }
 label, input, textarea, button {
+	margin-top: 1%;
 	display: block;
 }
 /*label, textarea, input {
@@ -185,20 +190,35 @@ fieldset {
 
 
 .body {
+	clear: both;
 	background-color: #ACC2E3;
-	padding: 1%;
+	padding: 1% 1%;
 	height: auto;
-	width: 95%;
+	width: 100%;
 }
 .body h1 {
+	font-size: 2.375em;
 	text-align: center;
 }
+.body h3 {
+	font-size: 1.5em;
+}
+.body p {
+	font-size: 1.125em;
+	margin: 1% 1%;
+}
+.body ol {
+	font-size: 1.125em;
+}
 .body ul {
+	font-size: 1.25em;
+}
+#parking {
 	text-align: justify;
 	width: 50%;
 	margin: 0 auto;
 }
-.body ul li {
+#parking ul li {
 	margin-bottom: 1.5%;
 }
 #parkingContainer {
@@ -210,6 +230,71 @@ fieldset {
 	/*width:298px;*/
 	display: block;
 }
+#youngAdults {
+	width: 100%;
+}
+#youngAdults li {
+	display: inline-block;
+	margin-right: 5%;
+}
+#staff1 {
+	width: 100%;
+}
+#staff1 li {
+	display: inline-block;
+	width: 31.90%;
+}
+#staff2 {
+	width: 100%;
+}
+#staff2 li {
+	display: inline-block;
+	width: 15.95%;
+	margin-right: 15.9%;
+}
+ul.staff3 {
+	-moz-column-count: 3;
+	width: 100%;
+	margin: 0 auto;
+}
+ul.staff3 li {
+	display: inline-block;
+	width: 31.90%;
+	margin-right: 20%;
+}
+ul.dates {
+	width: 100%;
+}
+ul.dates li {
+	list-style-type: none;
+	display: block;
+}
+.links a {
+	color: #fff;
+}
+.links a:active {
+	color: #04871A;
+}
+.links a:hover {
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+}
+#gallery {
+	width: 100%;
+	height: 350px;
+	background-color: #ACC2E3;
+	clear: both;
+}
+.gallery, .clergy {
+	width: 50%;
+}
+.clergy ul li {
+	display: block;
+}
+.gallery ul li {
+	display: inline-block;
+}
 /*          footer css                    */
 footer {
 	clear: both;
@@ -218,28 +303,26 @@ footer {
 footer ul {
 	float: left;
 	width: 100%;
-	margin-left: -4%;
+	margin-left: -4.5%;
 }
 footer ul li {
 	display: inline-block;
-	font-size: 1.125em;
+	font-size: 1.2em;
 	text-align: left;
 	margin-right: 1%;
+	float: left;
 }
-footer ul li a {
+footer ul li a, footer ul li a.current:hover {
 	text-decoration: none;
 	color: #000;
 }
 footer ul li a:active {
 	color: #04871A;
 }
-footer ul li a:hover {
+footer ul li a:hover, footer ul li a.current {
 	font-style: italic;
 	font-weight: bold;
-	color: #04871A;
-}
-footer ul li a:visited {
-	color: #184BCA;
+	color: #FFF;
 }
 
 
@@ -250,48 +333,77 @@ footer ul li a:visited {
 body {
 	min-width: 768px;
 	max-width: 959px;
-	font: 100%/1.3 "Arial", "Helvetica", sans-serif;
+	font: 100%/1.375 "Arial", "Helvetica", sans-serif;
 }
 #container {
-	font-size: 0.75em;
-	width: 95%;
+	width: 98%;
 	margin: 0 auto;
 }
-#logoContainer {
-	max-width: 17.7083%;
+header {
+	width: 98%;
 }
-#logo {
-	max-width: 100%;
+#logoContainer {
+	width: 22%;
+	margin-left: -1%;
 }
 nav {
-	width: 90%;
+	width: 80%;
+	float: right;
 }
 nav ul li {
 	font-size: 1.5em;
 }
-#maincontent {
-	width: 95%;
+#contact {
+	width: 98%;
 }
-#choirContainer {
-	max-width: 100%;
+#contact p {
+	font-size: 1.125em;
 }
-#columns {
-	max-width: 100%;
+label, input, textarea, button {
+	margin-top: 1%;
 }
-.schedule, .mission {
-	height: 210px;
-	width: 45%;
+textarea {
+	max-width: 85%;
 }
 .body {
-	max-width: 95%;
-	font-size: 1.25em;
+	width: 98%;
 }
 #parkingContainer {
 	width: 50%;
 	margin: 0 auto;
 }
-#parkinglot {
-	max-width: 100%;
+ul.dates {
+	width: 98%;
+}
+#gallery {
+	width: 98%;
+	height: 600px;
+	clear: both;
+}
+.gallery, .clergy {
+	width: 50%;
+}
+.clergy ul li {
+	display: block;
+}
+.gallery ul li {
+	display: inline-block;
+}
+.body p {
+	margin-top: 2%;
+}
+taff1 {
+	width: 98%;
+}
+#staff2 {
+	width: 98%;
+}
+ul.staff3 {
+	width: 98%;
+	margin: 0 auto;
+}
+#youngAdults {
+	width: 98%;
 }
 }
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers */
@@ -299,83 +411,115 @@ nav ul li {
 body {
 	min-width: 480px;
 	max-width: 767px;
-	font: 100%/1.0 "Arial", "Helvetica", sans-serif;
+	font: 100%/1.25 "Arial", "Helvetica", sans-serif;
 }
 #container {
-	font-size: 0.725em;
-	width: 90%;
+	width: 97%;
 	margin: 0 auto;
 }
+header h1 {
+	margin-top: 75px;
+	font-size: 1.75em;
+}
 #logoContainer {
-	max-width: 50%;
+	width: 40%;
 }
 #logo {
-	max-width: 100%;
+	float: none;
 }
 nav {
 	width: 100%;
+	float: none;
 }
 nav ul li {
-	font-size: 1em;
-}
-#maincontent {
-	width: 95%;
-}
-#choirContainer {
-	max-width: 100%;
-}
-#columns {
-	max-width: 100%;
+	font-size: 1.35em;
+	margin-right: 2%;
+	text-align: left;
 }
 .left, .right {
-	float: none
+	float: none;
+}
+#columns {
+	height: auto;
 }
 .schedule, .mission {
-	height: 250px;
-	width: 97%;
-	margin-top: 1%;
-}
-footer li {
-	font-size: 1em;
-}
-.body {
+	font-size: 1.125em;
+	height: auto;
 	width: 95%;
+	border: none;
+	padding: 1%;
 }
-.body ul {
-	width: 90%;
+ul.dates {
+	width: 97%;
 }
-#parkingContainer {
-	width: 75%;
+#gallery {
+	width: 97%;
+	height: 600px;
+	clear: both;
+}
+.gallery, .clergy {
+	width: 100%;
+}
+.clergy ul li {
+	display: block;
+}
+.gallery ul li {
+	display: inline-block;
+}
+#staff1 {
+	width: 97%;
+}
+#staff2 {
+	width: 97%;
+}
+ul.staff3 {
+	-moz-column-count: 2;
+	width: 97%;
 	margin: 0 auto;
 }
-#parkinglot {
-	max-width: 100%;
+.body p {
+	margin-top: 2%;
 }
-.comment, .info {
+#youngAdults {
+	width: 97%;
+}
+#youngAdults li {
+	display: block;
+}
+#parkingContainer {
+	width: 50%;
 	margin: 0 auto;
 }
 #contact {
-	width: 100%;
+	width: 97%;
+	margin: 0 auto;
+	height: auto;
+	padding: 1% 1%;
 }
 #contact ul {
 	float: none;
-	list-style-type: none;
+	font-size: 1.25em;
 }
-.comment, .info {
-	width: 100%;
+#contact ul li {
+	display: block;
+}
+#contact p {
+	clear: both;
+	width: 97%;
+	font-size: 1.125em;
 }
 form {
-	width: 100%;
+	clear: both;
 }
-input {
-	max-width: 100%;
+.comment, .info {
+	width: 97%;
 }
-fieldset {
-	border: none;
-	max-width: 100%;
+label, input, textarea, button {
+	margin-top: 2%;
+	display: block;
 }
-textarea {
-	max-width: 75%;
+label, textarea, input {
+	width: 97%;
 }
 }
 /*Mobile Portrait Size to Mobile Landsape Size (devices and browsers)*/
@@ -385,86 +529,124 @@ body {
 	max-width: 479px;
 }
 #container {
-	font-size: 0.725em;
-	width: 90%;
+	width: 97%;
 	margin: 0 auto;
 }
 header h1 {
 	display: none;
 }
 #logoContainer {
-	width: 100%;
-	margin-left: 10%;
+	width: 97%;
+	margin: 0 auto;
 }
-#choirContainer {
-	display: none;
+#logo {
+	float: none;
 }
 nav {
-	width: 100%;
+	width: 97%;
 	float: none;
 }
 nav ul li {
 	display: block;
 	font-size: 1.5em;
-	float: none;
 	text-align: left;
-	width: 100%;
 }
-#maincontent {
-	width: 95%;
-}
-#choirContainer {
-	max-width: 100%;
+left, .right {
+	float: none;
 }
 #columns {
-	max-width: 100%;
-	margin-left: 10%;
-}
-.left, .right {
-	float: none
+	height: auto;
 }
 .schedule, .mission {
-	height: 200px;
-	width: 90%;
-	margin-top: 1%;
+	font-size: 1.125em;
+	height: auto;
+	width: 97%;
+	border: none;
+	padding: 1%;
 }
 footer {
 	display: none;
 }
-body {
-	width: 95%;
+ul.dates {
+	width: 97%;
 }
-.body ul {
-	width: 85%;
+#gallery {
+	width: 97%;
+	height: 210px;
 }
-#parkingContainer {
-	width: 80%;
+.clergy {
+	width: 100%;
+}
+.gallery {
+	display: none;
+}
+.clergy ul li {
+	display: block;
+}
+#staff1 {
+	display: none;
+}
+#staff2 {
+	width: 97%;
+}
+#staff2 li {
+	display: block;
+	width: 97%;
+	margin-top: 2%;
+}
+ul.staff3 {
+	-moz-column-count: 1;
+	width: 97%;
 	margin: 0 auto;
 }
-#parkinglot {
-	max-width: 100%;
+.body p {
+	margin-top: 2%;
+}
+#youngAdults {
+	width: 97%;
+}
+#youngAdults li {
+	display: none;
+}
+#parking {
+	text-align: justify;
+	width: 75%;
+	margin: 0 auto;
+}
+#parking ul li {
+	margin-bottom: 1.5%;
+}
+#parkingContainer {
+	display: none;
 }
 #contact {
-	width: 100%;
+	width: 98%;
+	margin: 0 auto;
+	height: 525px;
+	padding: 1% 1%;
 }
 #contact ul {
 	float: none;
-	list-style-type: none;
+	font-size: 1.25em;
+}
+#contact ul li {
+	display: block;
+}
+#contact p {
+	clear: both;
+	width: 98%;
+	font-size: 1.125em;
+}
+form {
+	clear: both;
 }
 .comment, .info {
 	width: 100%;
 }
-form {
-	width: 100%;
+label, input, textarea, button {
+	margin-top: 2%;
 }
-input {
-	width: 50%;
-}
-fieldset {
-	border: none;
-	max-width: 100%;
-}
-textarea {
-	max-width: 50%;
+label, textarea, input {
+	width: 98%;
 }
 }
